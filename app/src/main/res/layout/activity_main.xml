@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="176dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginBottom="417dp"
+        android:text="START"
+        android:textSize="30dp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:background="#E3D558"
+        android:shadowColor="#86133A"
+        android:text="KIDS ZOO"
+        android:textColor="#D81B60"
+        android:textSize="37dp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startbtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFCFC">
+
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="3dp"
+        android:text="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/cat"
+        style="@style/animalImage"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cat" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        style="@style/animalImage"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintStart_toEndOf="@+id/cat"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog" />
+
+    <ImageView
+        style="@style/animalImage"
+        android:id="@+id/bird"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView12"
+        app:layout_constraintEnd_toStartOf="@+id/fish"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bird" />
+
+    <ImageView
+        android:id="@+id/fish"
+        style="@style/animalImage"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fish" />
+
+    <ImageView
+        android:id="@+id/mouse"
+        style="@style/animalImage"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="191dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/turtle"
+        app:srcCompat="@drawable/mouse" />
+
+    <ImageView
+        android:id="@+id/rbt"
+        style="@style/animalImage"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mouse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mouse"
+        app:layout_constraintTop_toTopOf="@+id/mouse"
+        app:srcCompat="@drawable/rabbit" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        style="@style/animalImage"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/turtle" />
+
+    <TextView
+        android:id="@+id/turtle"
+        style="@style/animalTextViewStyle"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="13dp"
+        android:text="CAT"
+        app:layout_constraintBottom_toTopOf="@+id/bird"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cat" />
+
+    <TextView
+        android:id="@+id/textView11"
+        style="@style/animalTextViewStyle"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="5dp"
+        android:text="DOG"
+        app:layout_constraintBottom_toTopOf="@+id/bird"
+        app:layout_constraintStart_toStartOf="@+id/fish"
+        app:layout_constraintTop_toTopOf="@+id/turtle" />
+
+    <TextView
+        android:id="@+id/textView12"
+        style="@style/animalTextViewStyle"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="15dp"
+        android:text="BIRD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fish"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <TextView
+        android:id="@+id/textView13"
+        style="@style/animalTextViewStyle"
+        android:layout_marginEnd="29dp"
+        android:text="FISH"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mouse"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        style="@style/animalTextViewStyle"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="56dp"
+        android:text="MOUSE"
+        app:layout_constraintEnd_toEndOf="@+id/mouse"
+        app:layout_constraintTop_toBottomOf="@+id/mouse" />
+
+    <TextView
+        android:id="@+id/textView15"
+        style="@style/animalTextViewStyle"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="29dp"
+        android:text="RABBIT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbt" />
+
+    <TextView
+        android:id="@+id/textView16"
+        style="@style/animalTextViewStyle"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="4dp"
+        android:text="TURTLE"
+        app:layout_constraintBottom_toTopOf="@+id/backbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
