@@ -52,19 +52,19 @@ Kidszoo App utilizes SharedPreferences to store user preferences and data, ensur
 ### 6. Implementation of Lifecycle Methods
 Lifecycle methods are implemented where applicable to ensure proper management of app resources and user interactions. This includes handling activity lifecycle events such as onCreate(), onResume(), onPause(), and onDestroy().
 
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
-![App](read/h.png)
+![App](read/h.png)![App](read/s.png)
+![App](read/m.png)
+![App](read/an.png)
+![App](read/c.png)
+![App](read/ch.png)
+![App](read/n.png)
+![App](read/n1.png)
+![App](read/n2.png)
+![App](read/n3.png)
+![App](read/t.png)
+![App](read/t1.png)
+![App](read/t2.png)
+![App](read/t3.png)
+
 
 
